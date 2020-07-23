@@ -39,6 +39,7 @@ fn main() {
     let s = (500, 6.4, 2);
     println!("Created a tuple 's'.");
     println!("s.0 = {}, s.1 = {}, s.2 = {}", s.0, s.1, s.2);
+    
     // You can also destructure a tuple
     let (a, b, c) = s;
     println!("Destruct tuple s to vars: a, b, c.");
